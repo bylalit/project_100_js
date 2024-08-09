@@ -1,4 +1,4 @@
-let amount = document.getElementById("amount");
+let amount = document.querySelector("#amount");
 const period = document.getElementById("period");
 const interest = document.getElementById("interest");
 const btn = document.getElementById("btn");
@@ -18,4 +18,3 @@ while (start <= period.value) {
     start += 1;
 }
 });
-

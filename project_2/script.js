@@ -5,21 +5,17 @@ const btn = document.getElementById("btn");
 
 
 
-// btn.addEventListener(function(){
-//     console.log(amount.value);
-//     console.log("Hello");
-// })
-
 btn.addEventListener("click", function(){
 let start = 1;
 
 while (start <= period.value) {
    let result = amount.value * interest.value / 100;
    console.log(result);
+   console.log(amount);
    amount += result;
    console.log(amount.value);
    console.log("hii");
     start += 1;
 }
-})
+});
 

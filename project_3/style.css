@@ -112,6 +112,44 @@ h1{
     height: 2.7rem;
     font-size: 1.8rem;
     text-transform: uppercase;
-    color: navy;
+    color: white;
     cursor: pointer;
+    background-color: green;
+    border: none;
+}
+
+table{
+    border: 3px solid black;
+    margin: 5rem 0 3rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    padding: 1rem 0;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+}
+td{
+    text-align: center;
+    padding: 0.7rem 0;
+}
+
+#del{
+    padding: 0.3rem 0.5rem;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#up{
+    padding: 0.3rem 0.5rem;
+    background-color: greenyellow;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 8px;
 }

@@ -71,7 +71,7 @@ body{
     animation: shake 0.1s linear 10;
 }
 
-@keyframes shake{
+/* @keyframes shake{
     0%{
         transform: translateX(0);
     }
@@ -87,4 +87,4 @@ body{
     100%{
         transform: translateX(0);
     }
-}
+} */

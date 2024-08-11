@@ -8,10 +8,10 @@ let charcterIndex = 0;
 updateText();
 
 function updateText(){
-    charcterIndex++;
-    containerEl.innerHTML = `
-    <h1>I am ${careers[careerInd].slice(0,1) === "I" ? "an" : "a"} ${careers[careerInd].slice(0,charcterIndex)}</h1>
-    `;
+    // charcterIndex++;
+    // containerEl.innerHTML = `
+    // <h1>I am ${careers[careerInd].slice(0,1) === "I" ? "an" : "a"} ${careers[careerInd].slice(0,charcterIndex)}</h1>
+    // `;
 
     if (charcterIndex === careers[careerInd].length){
         careerInd++;

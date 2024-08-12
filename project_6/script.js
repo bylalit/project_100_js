@@ -2,14 +2,12 @@ const images = document.querySelector(".image-container");
 
 let btn = document.querySelector(".btn");
 
-
 btn.addEventListener("click", ()=>{
     imageNum = 10;
     addNewImage();
 });
 
 function addNewImage(){
-
     for (let index = 0; index < imageNum; index++) {
         
         const newImg = document.createElement("img");
@@ -18,8 +16,4 @@ function addNewImage(){
     
         images.appendChild(newImg);
     }
-
-
-
- 
 }

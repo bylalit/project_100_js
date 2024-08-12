@@ -10,7 +10,24 @@
     
     <div class="container">
         <h2>Expense Tracker</h2>
-        
+        <div class="item">
+            <h6>Item Name:</h6>
+            <input type="text" placeholder="Enter item name" id="nameItem" />
+        </div>
+        <div class="item">
+            <h6>Item Amount:</h6>
+            <input type="number" placeholder="Enter item amount" id="amountItem" />
+        </div>
+
+        <div class="btn">
+            <button id="add">Add Item</button>
+            <button id="remove">Clear All</button>
+        </div>
+
+        <div id="demo">
+        </div>
+
+        <h4 id="total"></h4>
     </div>
 
     <script src="script.js"></script>

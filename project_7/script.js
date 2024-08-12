@@ -25,9 +25,6 @@ add.addEventListener("click", function(){
     p.style.display = "block";
 
 
-    // let valueAdd = 0;
-    // valueAdd += parseInt(valueAdd + b);
-
     let d = 0;
     d += parseInt(d + b)
     total.innerHTML = d;

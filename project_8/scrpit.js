@@ -21,13 +21,18 @@ const imgEl = document.querySelector("img");
 const textEl = document.querySelector(".text");
 const usernameEl = document.querySelector(".username");
 
-
-
-
-
 let i = 0;
+
+updateTestimonial();
+
 function updateTestimonial(){
     const {name, photoUrl, text} = 
-    testimonial[i]
-
+    testimonial[i];
+    imgEl.src = photoUrl;
+    textEl.innerHTML = text;
+    usernameEl.innerHTML = name;
+    i++;
+    setTimeout(()=>{
+        updateTestimonial();
+    }, 2000)
 }

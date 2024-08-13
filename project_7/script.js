@@ -36,4 +36,7 @@ function clearer(){
 
     totalAmount = 0;
     document.getElementById("totalAmount").innerHTML = `Total Amount: ₹0.00`;
+
+    nameItem.value = "";
+    amountItem.value = "";
 }

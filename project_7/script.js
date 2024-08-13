@@ -55,11 +55,13 @@ btn1.addEventListener("click", dispaly);
 
 
 function dispaly(){
-    // innertext.innerHTML += nameItem.value;
-    // nameItem.value = "";
-
     let newEl = document.createElement("p");
-    newEl.innerHTML += nameItem.value;
-    nameItem.value = "";
-    innertext.appendChild(newEl);
-}
+    if (nameItem.value.trim() === "" || amountItem.value.trim() === ""){
+        alert("Please Enter the value!");
+    }else{
+        newEl.innerHTML += `${nameItem.value}: ₹${amountItem.value}.00`;
+        nameItem.value = "";
+        amountItem.value = "";
+        innertext.appendChild(newEl);
+    };
+};

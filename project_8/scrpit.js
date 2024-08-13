@@ -32,6 +32,11 @@ function updateTestimonial(){
     textEl.innerHTML = text;
     usernameEl.innerHTML = name;
     i++;
+
+    if (i === testimonial.length){
+        i = 0;
+    }
+
     setTimeout(()=>{
         updateTestimonial();
     }, 2000)

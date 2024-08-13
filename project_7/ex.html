@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            display: block;
+            width: 50%;
+            padding: 7px 10px;
+            margin-bottom: 40px;
+            outline: none;
+            margin: 30px;
+        }
+        button{
+            padding: 10px 15px;
+            border-radius: 7px;
+            background: transparent;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <!-- <input type="text" id="add" placeholder="Enter the Text">
+
+    <button id="btn">Add Btn</button>
+    <div id="demo">hello</div> -->
+    
+
+    <input type="number" placeholder="Enter teh nuber" id="num1" />
+    <button id="btn">Add</button>
+    <div id="demo"></div>
+
+
+
+
+    <script>
+        // let inpu = document.querySelector("#add");
+        // let btn = document.getElementById("btn");
+        // let a = document.getElementById("demo");
+
+        // btn.addEventListener("click", display)
+
+        // function display(){
+        //     a.innerHTML += inpu.value;
+        //     inpu.value = "";
+        // }
+
+        let a = document.getElementById("num1");
+        let btn = document.getElementById("btn")
+        let b = document.getElementById("demo");
+
+        btn.addEventListener("click", disply)
+
+        function disply(){
+            b.innerHTML += a.value;
+            a.value = "";
+        }
+
+    </script>
+</body>
+</html>

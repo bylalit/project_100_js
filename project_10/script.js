@@ -17,12 +17,12 @@ nextEl.addEventListener("click", ()=>{
     updateGalley();
 });
 
-function updateGalley(){
-    imageContainerEl.style.transform = `perspective(1000px) rotateY(${x}deg)`;
-    timer = setTimeout(()=>{
-        x -= 45;
-        updateGalley();
-    }, 3000);
-}
+// function updateGalley(){
+//     imageContainerEl.style.transform = `perspective(1000px) rotateY(${x}deg)`;
+//     timer = setTimeout(()=>{
+//         x -= 45;
+//         updateGalley();
+//     }, 3000);
+// }
 
 updateGalley();

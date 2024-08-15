@@ -37,3 +37,32 @@ body{
     top: 0;
     width: 100%;
 }
+
+.btn-container{
+    position: relative;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.btn{
+    position: absolute;
+    bottom: -80px;
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: brightness(1.5);
+}
+
+#prev{
+    left: 20%;
+}
+
+#next{
+    right: 20%;
+}

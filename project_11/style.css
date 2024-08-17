@@ -36,3 +36,43 @@ h2{
     align-items: center;
     justify-content: center;
 }
+
+.countdown div{
+    margin: 0 15px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: -25px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.countdown div::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    font-size: .35em;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 100%;
+    height: 35px;
+}
+
+.countdown #hour::before{
+    content: "Hours";
+}
+
+.countdown #minut::before{
+    content: "Minutes";
+}
+
+.countdown #second::before{
+    content: "Secounds";
+}
+
+.countdown #day::before{
+    content: "Days";
+}

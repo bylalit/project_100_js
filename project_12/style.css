@@ -42,7 +42,7 @@ input{
     max-width: 300px;
 }
 
-/* button{
+button{
     background-color: #007bff;
     color: white;
     border: none;
@@ -63,4 +63,4 @@ button:hover{
     margin-top: 20px;
     font-weight: bold;
     margin-bottom: 20px;
-} */
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // let complete = false;
+        function prom(complete){
+            return new Promise(function(resolve, reject){
+                console.log("Fatcing data please wait")
+                setTimeout(()=>{
+                    if(complete){
+                        resolve("I am successfull.");
+                    }else{
+                        reject("I am failed.");
+                    }
+                }, 3000)
+            });
+        }
+
+        // let onfulfilment = (result) => {
+        //     console.log(result);
+        // }
+
+        // let onrejection = (error) => {
+        //     console.log(error);
+        // }
+
+        // prom(true).then((result) => {
+        //     console.log(result);
+        // }).catch((error) => {
+        //     console.log(error);
+        // })
+
+        // console.log(prom(true));
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

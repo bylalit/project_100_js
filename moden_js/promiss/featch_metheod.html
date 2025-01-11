@@ -17,6 +17,12 @@
 
     <script>
 
+        if(window.fetch){
+
+        }else{
+            
+        }
+
         // fetch('content/readme.txt')
         // .then((response) => {
         //     return response.text();
@@ -70,7 +76,6 @@
                 })
                     .then((response) => response.json())
                     .then((json) => console.log(json));
-
         });
 
 

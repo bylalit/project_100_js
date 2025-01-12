@@ -16,9 +16,14 @@
 
 
         async function test() {
-            const response = await fetch("json/student_data.json");
-            const student = await response.json();    
-            return student;
+            try {
+                const response = await fetch("json/student_data.json");
+                const student = await response.json();    
+                return student;   
+            } catch (error) {
+                console.log(error);
+            }
+            
 
             // return(await fetch("json/student_data.json")).json();
         }
@@ -28,8 +33,6 @@
             for (let i in result){
                 console.log(result[i].name, " - ", result[i].age)
             }
-        }).catch((error) => {
-            console.log("Can't fetch data.")
         });
 
 

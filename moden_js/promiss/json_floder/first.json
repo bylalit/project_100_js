@@ -3,10 +3,3 @@
     "b":40,
     "is_admin": true
 }
-
-// b843fae7b6823cdbca8cd330ba7ddf70
-
-// https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={b843fae7b6823cdbca8cd330ba7ddf70}
-
-
-// https://api.openweathermap.org/data/2.5/weather?q=Goa&appid=b843fae7b6823cdbca8cd330ba7ddf70&units=metric
